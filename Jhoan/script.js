@@ -3,7 +3,7 @@ const API_URL = 'http://localhost/apilumen/public';
 
 let userForm = document.getElementById('userForm');
 let usersTable = document.getElementById('usersTable');
-
+ 
 userForm.addEventListener('submit', (event) =>{
     event.preventDefault();
     let name = document.getElementById('name').value;
